@@ -106,13 +106,13 @@ const questions = [
   },
 ];
 
-inquirer.prompt(questions).then((answers) => {
-  const theReadMe = generateReadMe(answers);
-  fs.writeFile("README.md", theReadMe, (err) => (err ? console.error(err) : console.log("Success!")));
-});
+function runInqurer() {
+  inquirer.prompt(questions).then((answers) => {
+    generateReadMe(answers);
+  });
 
-const generateReadMe = ({ title, purpose, problem_solved, languages_used, description, installation, usage_information, screenshot, alt_text_screenshot, license, contribution_guidelines, test_instructions, github, email, repo_link, deployed_link }) => {
-  return `# ${title}
+  const generateReadMe = ({ title, purpose, problem_solved, languages_used, description, installation, usage_information, screenshot, alt_text_screenshot, license, contribution_guidelines, test_instructions, github, email, repo_link, deployed_link }) => {
+    const readMeText = `# ${title}
 
     ![License Badge](https://img.shields.io/badge/license-MIT-green)
     
@@ -175,13 +175,23 @@ const generateReadMe = ({ title, purpose, problem_solved, languages_used, descri
     - Here is the repo: [${github}/${title}](${repo_link})
     - Here is the pages: [${github}/pages](${deployed_link})
     `;
-};
+    writeToFile(readMeText);
+  };
+  // renderLicenseBadge(license);
+  // renderLicenseLink(license);
+  // renderLicenseSection(license);
+  // writeToFile(fileName);
+}
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+// TODO: Create a function to write README file
+function writeToFile(readMeText, data) {
+  fs.writeFile("README.md", readMeText, (err) => (err ? console.error(err) : console.log("Success!")));
+}
 
-// // TODO: Create a function to initialize app
-// function init() {}
+// TODO: Create a function to initialize app
+function init() {
+  runInqurer();
+}
 
-// // Function call to initialize app
-// init();
+// Function call to initialize app
+init();
