@@ -35,6 +35,13 @@ const questions = [
   },
 
   {
+    name: "alt_text_screenshot",
+    type: "input",
+    message: "Enter the alt text for your screenshot.",
+    default: "Screenshot of application.",
+  },
+
+  {
     name: "contribution_guidelines",
     type: "input",
     message: "Enter any guidelines for other developers who would like to contribute to your application.",
