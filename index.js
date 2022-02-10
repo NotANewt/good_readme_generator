@@ -114,67 +114,67 @@ function runInqurer() {
   const generateReadMe = ({ title, purpose, problem_solved, languages_used, description, installation, usage_information, screenshot, alt_text_screenshot, license, contribution_guidelines, test_instructions, github, email, repo_link, deployed_link }) => {
     const readMeText = `# ${title}
 
-    ![License Badge](https://img.shields.io/badge/license-MIT-green)
-    
-    ## Description
-    
-    - Purpose of this project: ${purpose}
-    - Problem(s) the app solves: ${problem_solved}
-    - Languages used: ${languages_used}
-    - Brief description: ${description}
-    
-    ## Table of Contents
-    
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    - [Links](#links)
-    
-    ## Installation
+![License Badge](https://img.shields.io/badge/license-MIT-green)
 
-    ${installation}
-    
-    ## Usage
+## Description
 
-    ${usage_information}
-    
-    ### Screenshot
-    
-    !["${alt_text_screenshot}"](${screenshot})
-    
-    ## License
+- Purpose of this project: ${purpose}
+- Problem(s) the app solves: ${problem_solved}
+- Languages used: ${languages_used}
+- Brief description: ${description}
 
-    ${license}
-    
-    ## Contributing
+## Table of Contents
 
-    ${contribution_guidelines}
-    
-    [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-    
-    If you would like to contribute to this application, please follow the Contributor Covenant. Details can be found at [Contributor Covenant](https://www.contributor-covenant.org/).
-    
-    ## Tests
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Links](#links)
 
-    ${test_instructions}
-    
-    ## Questions
+## Installation
+
+${installation}
+
+## Usage
+
+${usage_information}
+
+### Screenshot
+
+!["${alt_text_screenshot}"](${screenshot})
+
+## License
+
+${license}
+
+## Contributing
+
+${contribution_guidelines}
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
+If you would like to contribute to this application, please follow the Contributor Covenant. Details can be found at [Contributor Covenant](https://www.contributor-covenant.org/).
+
+## Tests
+
+${test_instructions}
+
+## Questions
 
 
-    
-    If you have any questions:
-    
-    - Email me: [${email}](mailto:${email})
-    - Go to my github: [${github}/pages](https://github.com/${github})
-    
-    ## Links
-    
-    - Here is the repo: [${github}/${title}](${repo_link})
-    - Here is the pages: [${github}/pages](${deployed_link})
-    `;
+
+If you have any questions:
+
+- Email me: [${email}](mailto:${email})
+- Go to my github: [${github}/pages](https://github.com/${github})
+
+## Links
+
+- Here is the repo: [${github}/${title}](${repo_link})
+- Here is the pages: [${github}/pages](${deployed_link})
+`;
     // generateMarkdown(license);
     writeToFile(readMeText);
   };
