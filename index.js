@@ -64,15 +64,16 @@ const questions = [
     name: "license",
     type: "list",
     message: "Choose a license for your application.",
-    choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"],
+    choices: ["MIT License", "Apache License 2.0", "GNU General Public License v3.0", "BSD 2-Clause 'Simplified' License", "BSD 3-Clause 'New' or 'Revised' License", "Boost Software License 1.0", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License v3.0", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"],
     default: "MIT License",
   },
 
   {
     name: "contribution_guidelines",
-    type: "input",
+    type: "list",
     message: "Choose contribution guidelines",
     choices: ["Contributor Covenant", "custom"],
+    default: "Contributor Covenant",
   },
 
   {
@@ -112,6 +113,12 @@ function runInqurer() {
   });
 
   const generateReadMe = ({ title, purpose, problem_solved, languages_used, description, installation, usage_information, screenshot, alt_text_screenshot, license, contribution_guidelines, test_instructions, github, email, repo_link, deployed_link }) => {
+    if (contribution_guidelines === "Contributor Covenant") {
+      contribution_guidelines = `[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+If you would like to contribute to this application, please follow the Contributor Covenant. 
+Details can be found at [Contributor Covenant](https://www.contributor-covenant.org/).
+`;
+    }
     const readMeText = `# ${title}
 
 ![License Badge](https://img.shields.io/badge/license-MIT-green)
@@ -152,10 +159,6 @@ ${license}
 ## Contributing
 
 ${contribution_guidelines}
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-
-If you would like to contribute to this application, please follow the Contributor Covenant. Details can be found at [Contributor Covenant](https://www.contributor-covenant.org/).
 
 ## Tests
 

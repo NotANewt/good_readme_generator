@@ -1,13 +1,13 @@
-# david blaine
+# project title
 
 ![License Badge](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
 
-- Purpose of this project: show off my amazing magic
-- Problem(s) the app solves: the problem of people not knowing about my street magic
-- Languages used: html, css, and javascript
-- Brief description: the user can look through all my amazing magical skills
+- Purpose of this project: very important purpose
+- Problem(s) the app solves: solved all world's problems
+- Languages used: html, css, javascript
+- Brief description: description goes here
 
 ## Table of Contents
 
@@ -21,15 +21,15 @@
 
 ## Installation
 
-application runs in the browser, so no installation necessary
+installation instructions
 
 ## Usage
 
-click on the buttons to see my magic in action
+instructions and examples
 
 ### Screenshot
 
-!["Screenshot of application."](./img/screenshot.png)
+!["alt text"](./img/screenshot)
 
 ## License
 
@@ -37,15 +37,14 @@ MIT License
 
 ## Contributing
 
-default
-
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+If you would like to contribute to this application, please follow the Contributor Covenant. 
+Details can be found at [Contributor Covenant](https://www.contributor-covenant.org/).
 
-If you would like to contribute to this application, please follow the Contributor Covenant. Details can be found at [Contributor Covenant](https://www.contributor-covenant.org/).
 
 ## Tests
 
-free your mind
+test like this
 
 ## Questions
 
@@ -53,10 +52,10 @@ free your mind
 
 If you have any questions:
 
-- Email me: [david.blaine@magic.com](mailto:david.blaine@magic.com)
-- Go to my github: [davidBlaineStreetMagic/pages](https://github.com/davidBlaineStreetMagic)
+- Email me: [meegan.r.anderson@gmail.com](mailto:meegan.r.anderson@gmail.com)
+- Go to my github: [NotANewt/pages](https://github.com/NotANewt)
 
 ## Links
 
-- Here is the repo: [davidBlaineStreetMagic/david blaine](https://www.google.com)
-- Here is the pages: [davidBlaineStreetMagic/pages](https://www.google.com)
+- Here is the repo: [NotANewt/project title](https://www.github/NotANewt)
+- Here is the pages: [NotANewt/pages](https://www.google.com)
