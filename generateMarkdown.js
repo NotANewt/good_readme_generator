@@ -5,15 +5,15 @@ function renderLicenseBadge({ license }) {
 
   switch (license) {
     case "MIT License":
-      licenseBadge = `[![MIT License](https://img.shields.io/badge/license-MIT-green]`;
+      licenseBadge = `![MIT License](https://img.shields.io/badge/license-MIT-green)`;
       break;
 
     case "Apache License 2.0":
-      licenseBadge = `[![Apache License 2.0](https://img.shields.io/badge/license-Apache-blue]`;
+      licenseBadge = `![Apache License 2.0](https://img.shields.io/badge/license-Apache-blue)`;
       break;
 
     case "BSD 2-Clause 'Simplified' License":
-      licenseBadge = `[![BSD 2-Clause 'Simplified' License](https://img.shields.io/badge/license-BSD-green]`;
+      licenseBadge = `![BSD 2-Clause 'Simplified' License](https://img.shields.io/badge/license-BSD-green)`;
       break;
 
     default:

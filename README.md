@@ -1,13 +1,13 @@
-# switching up the returns
+# Street Magic
 
-[![MIT License](https://img.shields.io/badge/license-MIT-green]
+![MIT License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
 
-- Purpose of this project: returns
-- Problem(s) the app solves: returns
-- Languages used: returns
-- Brief description: returns
+- Purpose of this project: To share the wonder of magic.
+- Problem(s) the app solves: There are never any problems with magic.
+- Languages used: HTML, CSS, JavaScript
+- Brief description: Come and see the wonders of magic!
 
 ## Table of Contents
 
@@ -21,15 +21,15 @@
 
 ## Installation
 
-returns
+Free your mind.
 
 ## Usage
 
-returns
+When the user opens the app in the browser, they are presented with amazing magical feats!
 
 ### Screenshot
 
-!["returns"](returns)
+!["Screenshot of application."](./img/screenshot.png)
 
 ## License
 
@@ -44,7 +44,7 @@ Details can be found at [Contributor Covenant](https://www.contributor-covenant.
 
 ## Tests
 
-return
+You cannot test magic.
 
 ## Questions
 
@@ -52,10 +52,10 @@ return
 
 If you have any questions:
 
-- Email me: [returns](mailto:returns)
-- Go to my github: [returns/pages](https://github.com/returns)
+- Email me: [david.blaine@magic.com](mailto:david.blaine@magic.com)
+- Go to my github: [David_Blaine/pages](https://github.com/David_Blaine)
 
 ## Links
 
-- Here is the repo: [returns/switching up the returns](returns)
-- Here is the pages: [returns/pages](returns)
+- Here is the repo: [David_Blaine/Street Magic](https://www.github.com)
+- Here is the pages: [David_Blaine/pages](https://www.google.com)
