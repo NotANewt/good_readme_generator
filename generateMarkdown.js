@@ -1,8 +1,3 @@
-// dymanic
-// license badge
-// license link
-// license section
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge({ license }) {
@@ -65,12 +60,6 @@ This application is covered under the following license: ${license}`;
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown({ title, purpose, problem_solved, languages_used, description, installation, usage_information, screenshot, alt_text_screenshot, license, contribution_guidelines, test_instructions, github, email, repo_link, deployed_link }, licenseBadge, licenseLink, licenseSection) {
-  if (contribution_guidelines === "Contributor Covenant") {
-    contribution_guidelines = `[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-If you would like to contribute to this application, please follow the Contributor Covenant.
-Details can be found at [Contributor Covenant](https://www.contributor-covenant.org/).
-`;
-  }
   return `# ${title}
 
 ${licenseBadge}

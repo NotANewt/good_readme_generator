@@ -71,9 +71,7 @@ const questions = [
   {
     name: "contribution_guidelines",
     type: "list",
-    message: "Choose contribution guidelines",
-    choices: ["Contributor Covenant", "custom"],
-    default: "Contributor Covenant",
+    message: "Enter your contribution guidelines.",
   },
 
   {
