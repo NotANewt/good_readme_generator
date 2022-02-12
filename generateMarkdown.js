@@ -55,8 +55,10 @@ function renderLicenseLink({ license }) {
 // if money boys, or return nothing
 function renderLicenseSection({ license }) {
   let licenseSection = "";
-  if (license !== "") {
-    licenseSection = `This application is covered under the following license: ${license}`;
+  if (license !== "" && license !== "None") {
+    licenseSection = `## License
+    
+This application is covered under the following license: ${license}`;
   }
   return licenseSection;
 }
@@ -101,8 +103,6 @@ ${usage_information}
 ### Screenshot
 
 !["${alt_text_screenshot}"](${screenshot})
-
-## License
 
 ${licenseSection}
 

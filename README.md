@@ -1,13 +1,13 @@
-# checking what happens if I put None for license
+# once again checking what happens when you put in None for the license
 
 
 
 ## Description
 
-- Purpose of this project: l;kj
-- Problem(s) the app solves: asdfl;kj
-- Languages used: asdfl;kj
-- Brief description: asdfl;kj
+- Purpose of this project: la;ksdjf
+- Problem(s) the app solves: asdlkfj
+- Languages used: asdflkj
+- Brief description: asdlfkjas;ldfkj
 
 ## Table of Contents
 
@@ -21,19 +21,17 @@
 
 ## Installation
 
-asdfl;kj
+l;kj
 
 ## Usage
 
-asdflkj
+asdfl;kj
 
 ### Screenshot
 
-!["asdf;lk"](asdflkj)
+!["asdf;lkj"](asdfl;kj)
 
-## License
 
-This application is covered under the following license: None
 
 ## Contributing
 
@@ -44,7 +42,7 @@ Details can be found at [Contributor Covenant](https://www.contributor-covenant.
 
 ## Tests
 
-asdf;lkj
+asd;lkfj
 
 ## Questions
 
@@ -52,10 +50,10 @@ asdf;lkj
 
 If you have any questions:
 
-- Email me: [asdf;lkj](mailto:asdf;lkj)
-- Go to my github: [asdf;lkj/pages](https://github.com/asdf;lkj)
+- Email me: [asdflkaj;lkj](mailto:asdflkaj;lkj)
+- Go to my github: [asd;lkfjasl;kj/pages](https://github.com/asd;lkfjasl;kj)
 
 ## Links
 
-- Here is the repo: [asdf;lkj/checking what happens if I put None for license](asdf;lkj)
-- Here is the pages: [asdf;lkj/pages](asdf;lkj)
+- Here is the repo: [asd;lkfjasl;kj/once again checking what happens when you put in None for the license](asdfasdl;kj)
+- Here is the pages: [asd;lkfjasl;kj/pages](asdfl;kasj;lkj)
