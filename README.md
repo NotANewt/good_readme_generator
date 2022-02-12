@@ -1,13 +1,13 @@
-# project title
+# switching up the returns
 
-![License Badge](https://img.shields.io/badge/license-MIT-green)
+[![MIT License](https://img.shields.io/badge/license-MIT-green]
 
 ## Description
 
-- Purpose of this project: very important purpose
-- Problem(s) the app solves: solved all world's problems
-- Languages used: html, css, javascript
-- Brief description: description goes here
+- Purpose of this project: returns
+- Problem(s) the app solves: returns
+- Languages used: returns
+- Brief description: returns
 
 ## Table of Contents
 
@@ -21,30 +21,30 @@
 
 ## Installation
 
-installation instructions
+returns
 
 ## Usage
 
-instructions and examples
+returns
 
 ### Screenshot
 
-!["alt text"](./img/screenshot)
+!["returns"](returns)
 
 ## License
 
-MIT License
+This website is covered under an MIT License.
 
 ## Contributing
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-If you would like to contribute to this application, please follow the Contributor Covenant. 
+If you would like to contribute to this application, please follow the Contributor Covenant.
 Details can be found at [Contributor Covenant](https://www.contributor-covenant.org/).
 
 
 ## Tests
 
-test like this
+return
 
 ## Questions
 
@@ -52,10 +52,10 @@ test like this
 
 If you have any questions:
 
-- Email me: [meegan.r.anderson@gmail.com](mailto:meegan.r.anderson@gmail.com)
-- Go to my github: [NotANewt/pages](https://github.com/NotANewt)
+- Email me: [returns](mailto:returns)
+- Go to my github: [returns/pages](https://github.com/returns)
 
 ## Links
 
-- Here is the repo: [NotANewt/project title](https://www.github/NotANewt)
-- Here is the pages: [NotANewt/pages](https://www.google.com)
+- Here is the repo: [returns/switching up the returns](returns)
+- Here is the pages: [returns/pages](returns)
