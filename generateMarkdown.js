@@ -53,7 +53,7 @@ function renderLicenseSection({ license }) {
   if (license !== "" && license !== "None") {
     licenseSection = `## License
     
-This application is covered under the following license: ${license}`;
+This application is licensed under the ${license} license`;
   }
   return licenseSection;
 }
@@ -68,7 +68,7 @@ ${licenseBadge}
 
 - Purpose of this project: ${purpose}
 - Problem(s) the app solves: ${problem_solved}
-- Languages used: ${languages_used}
+- Languages used: ${languages_used.join(", ")}
 - Brief description: ${description}
 
 ## Table of Contents

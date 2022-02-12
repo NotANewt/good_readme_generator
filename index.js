@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
+// An array of questions for user input
 const questions = [
   {
     name: "title",
@@ -25,8 +25,9 @@ const questions = [
 
   {
     name: "languages_used",
-    type: "input",
+    type: "checkbox",
     message: "Enter any languages used in developing your application.",
+    choices: ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Python"],
   },
 
   {
@@ -51,13 +52,16 @@ const questions = [
     name: "screenshot",
     type: "input",
     message: "Enter the relative file path of a screenshot for your application.",
+    validate: function (input) {
+      const valid = input.startsWith("./");
+      return valid || "Please enter a valid file path";
+    },
   },
 
   {
     name: "alt_text_screenshot",
     type: "input",
     message: "Enter the alt text for your screenshot.",
-    default: "Screenshot of application.",
   },
 
   {
@@ -70,7 +74,7 @@ const questions = [
 
   {
     name: "contribution_guidelines",
-    type: "list",
+    type: "input",
     message: "Enter your contribution guidelines.",
   },
 
@@ -90,18 +94,30 @@ const questions = [
     name: "email",
     type: "input",
     message: "Enter your email address.",
+    validate: function (email) {
+      const valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
+      return valid || "Please enter a valid email address.";
+    },
   },
 
   {
     name: "repo_link",
     type: "input",
     message: "Enter the link to the application's github repository.",
+    validate: function (input) {
+      const valid = input.startsWith("https://www.github.com");
+      return valid || "Please enter a valid website";
+    },
   },
 
   {
     name: "deployed_link",
     type: "input",
     message: "Enter the link to the deployed application.",
+    validate: function (input) {
+      const valid = input.startsWith("https://www.");
+      return valid || "Please enter a valid website";
+    },
   },
 ];
 
@@ -115,15 +131,15 @@ function runInqurer() {
   });
 }
 
-// Create a function to write README file
+// Write README file
 function writeToFile(readMeText) {
   fs.writeFile("README.md", readMeText, (err) => (err ? console.error(err) : console.log("Success!")));
 }
 
-// Create a function to initialize app
+// Initialize app
 function init() {
   runInqurer();
 }
 
-// Function call to initialize app
+// Initialize app
 init();
