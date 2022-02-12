@@ -1,19 +1,19 @@
-# Street Magic
+# checking what happens if I put None for license
 
-![MIT License](https://img.shields.io/badge/license-MIT-green)
+
 
 ## Description
 
-- Purpose of this project: To share the wonder of magic.
-- Problem(s) the app solves: There are never any problems with magic.
-- Languages used: HTML, CSS, JavaScript
-- Brief description: Come and see the wonders of magic!
+- Purpose of this project: l;kj
+- Problem(s) the app solves: asdfl;kj
+- Languages used: asdfl;kj
+- Brief description: asdfl;kj
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -21,19 +21,19 @@
 
 ## Installation
 
-Free your mind.
+asdfl;kj
 
 ## Usage
 
-When the user opens the app in the browser, they are presented with amazing magical feats!
+asdflkj
 
 ### Screenshot
 
-!["Screenshot of application."](./img/screenshot.png)
+!["asdf;lk"](asdflkj)
 
 ## License
 
-This website is covered under an MIT License.
+This application is covered under the following license: None
 
 ## Contributing
 
@@ -44,7 +44,7 @@ Details can be found at [Contributor Covenant](https://www.contributor-covenant.
 
 ## Tests
 
-You cannot test magic.
+asdf;lkj
 
 ## Questions
 
@@ -52,10 +52,10 @@ You cannot test magic.
 
 If you have any questions:
 
-- Email me: [david.blaine@magic.com](mailto:david.blaine@magic.com)
-- Go to my github: [David_Blaine/pages](https://github.com/David_Blaine)
+- Email me: [asdf;lkj](mailto:asdf;lkj)
+- Go to my github: [asdf;lkj/pages](https://github.com/asdf;lkj)
 
 ## Links
 
-- Here is the repo: [David_Blaine/Street Magic](https://www.github.com)
-- Here is the pages: [David_Blaine/pages](https://www.google.com)
+- Here is the repo: [asdf;lkj/checking what happens if I put None for license](asdf;lkj)
+- Here is the pages: [asdf;lkj/pages](asdf;lkj)
