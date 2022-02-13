@@ -25,7 +25,7 @@ To use this command-line application, please download and install the [Inquirer 
 
 ## Usage
 
-The application will be invoked by using the following command:
+The application will be invoked by using the following command in an integrated terminal:
 
 ```bash
 node index.js
@@ -35,7 +35,7 @@ The user will be prompted for information about their application repository, th
 
 ### Screenshot
 
-![""]()
+!["screenshot of integrated terminal after all questions have been answers and the readme file has been generated"](./assets/img/hw9_readme_generator_ss.PNG)
 
 ## License
 
@@ -59,4 +59,4 @@ If you have any questions:
 ## Links
 
 - Here is the repo: [NotANewt/hw9_good_readme_generator}](https://github.com/NotANewt/hw9_good_readme_generator)
-- Here is the walkthrough video: [NotANewt/hw9_good_readme_generator}](https://github.com/NotANewt/hw9_good_readme_generator)
+- Here is the walkthrough video: [README generator walkthrough](https://drive.google.com/file/d/1YMZ1gunW_w5awnkD8F2SRR1hb--onT7y/view?usp=sharing)
