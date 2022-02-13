@@ -58,5 +58,5 @@ If you have any questions:
 
 ## Links
 
-- Here is the repo: [NotANewt/hw9_good_readme_generator}](https://github.com/NotANewt/hw9_good_readme_generator)
+- Here is the repo: [NotANewt/hw9_good_readme_generator](https://github.com/NotANewt/hw9_good_readme_generator)
 - Here is the walkthrough video: [README generator walkthrough](https://drive.google.com/file/d/1YMZ1gunW_w5awnkD8F2SRR1hb--onT7y/view?usp=sharing)
