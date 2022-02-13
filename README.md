@@ -1,13 +1,13 @@
-# Weather Dashboard
+# 09 Node.js Homework: Professional README Generator
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
 
-- Purpose of this project: To provide current weather and a 5-day forecast for a searched city.
-- Problem(s) the app solves: The user not knowing the current or future weather conditions for a city.
-- Languages used: HTML, CSS, JavaScript
-- Brief description: The user searches for a city and is provided current weather data and a 5-day forecast.
+- Purpose of this project: This is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer) from [npm](https://www.npmjs.com/).
+- Problem(s) the app solves: Using this professional README generator allows the user to spend less time on the README and more time on the application itself.
+- Languages used: JavaScript (Node.js)
+- Brief description: User answers a series of questions about their application repository, and then a high-quality, prefessional README.md is generated.
 
 ## Table of Contents
 
@@ -21,15 +21,21 @@
 
 ## Installation
 
-The application runs in the browser, so no installation is required.
+To use this command-line application, please download and install the [Inquirer package](https://www.npmjs.com/package/inquirer) from [npm](https://www.npmjs.com/).
 
 ## Usage
 
-The user searches via a city name in the input box on the left. After they hit the "Search" button, the current weather data and the 5-day forecast is shown on the right side. A search button in generated for each city searched. If a user clicks on a city in the search history, the weather information for that city is shown,
+The application will be invoked by using the following command in an integrated terminal:
+
+```bash
+node index.js
+```
+
+The user will be prompted for information about their application repository, then a high-quality, professional README.md is generated with the title of their project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. The user's answers will be displayed under the appropriate sections of the README.md. When they choose a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under. If no license is selected, the License section will not appear in the README.md. When they enter their GitHub username and email address, they will be added to the section of the README entitled Questions, with instructions on how to reach the user with additional questions. When the user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
 
 ### Screenshot
 
-!["screenshot of weather desktop with purple header and purple buttons on a white background"](./assets/img/weather_dashboard_ss.png)
+!["screenshot of integrated terminal after all questions have been answers and the readme file has been generated"](./assets/img/hw9_readme_generator_ss.PNG)
 
 ## License
 
@@ -41,7 +47,7 @@ If you would like to contribute to this application, please follow the Contribut
 
 ## Tests
 
-You can test this application by entering unexpected characters into the city input.
+You can test this application by attempting to input incorrect or unexpected inputs for inquirer questions.
 
 ## Questions
 
@@ -52,5 +58,5 @@ If you have any questions:
 
 ## Links
 
-- Here is the repo: [NotANewt/Weather Dashboard](https://www.github.com/NotANewt/hw6_weather_dashboard)
-- Here is the pages: [NotANewt/pages](https://notanewt.github.io/hw6_weather_dashboard/)
+- Here is the repo: [NotANewt/hw9_good_readme_generator}](https://github.com/NotANewt/hw9_good_readme_generator)
+- Here is the walkthrough video: [README generator walkthrough](https://drive.google.com/file/d/1YMZ1gunW_w5awnkD8F2SRR1hb--onT7y/view?usp=sharing)
