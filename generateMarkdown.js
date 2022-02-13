@@ -1,11 +1,15 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+/*
+ renderLicenseBadge
+  returns a license badge based on which license is passed in
+    * licenseBadge is switched depending on the license passed in
+    * licenseBadge is a badge with the license name and color
+    * if no license or user chose "None", returns an empty string
+    * returns licenseBadge
+*/
 function renderLicenseBadge({ license }) {
   let licenseBadge;
 
   switch (license) {
-    // only needs a simple statement with a moneyboys
-    // "MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"
     case "MIT":
       licenseBadge = `![MIT License](https://img.shields.io/badge/license-MIT-green)`;
       break;
@@ -34,9 +38,13 @@ function renderLicenseBadge({ license }) {
   return licenseBadge;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// make it dynamic, so the license section only shows up if they choose a license type
+/*
+ renderLicenseLink
+  returns the link to the license section of the README.md file
+    * if the license is not an empty string and is not "None", the license link for the README.md file will be generated
+    * if the license is an empty string or the user chose "None", licenseLink will be an empty string
+    * returns licenseLink
+*/
 function renderLicenseLink({ license }) {
   let licenseLink = "";
   if (license !== "" && license !== "None") {
@@ -45,9 +53,13 @@ function renderLicenseLink({ license }) {
   return licenseLink;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// if money boys, or return nothing
+/*
+ renderLicensesection
+  returns what will be written under the license section
+    * if the license is not an empty string and is not "None", text will be written describing which license the application is covered under
+    * if the license is an empty string or the user chose "None", text will be an empty string
+    * returns licenseSection
+*/
 function renderLicenseSection({ license }) {
   let licenseSection = "";
   if (license !== "" && license !== "None") {
@@ -58,7 +70,13 @@ This application is licensed under the ${license} license.`;
   return licenseSection;
 }
 
-// TODO: Create a function to generate markdown for README
+/*
+ generateMarkdown
+  generates the markdown that will go into the README.md file
+    * takes in answers, licenseBadge, licenseLink, and licenseSection
+    * uses a template literal for the layout of the README file with the supplied answers added into the template
+    * returns the template literal
+*/
 function generateMarkdown({ title, purpose, problem_solved, languages_used, description, installation, usage_information, screenshot, alt_text_screenshot, license, contribution_guidelines, test_instructions, github, email, repo_link, deployed_link }, licenseBadge, licenseLink, licenseSection) {
   return `# ${title}
 
@@ -119,6 +137,7 @@ If you have any questions:
 `;
 }
 
+// modules to export
 module.exports = {
   renderLicenseBadge,
   renderLicenseLink,
