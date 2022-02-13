@@ -1,4 +1,4 @@
-// Include packages needed for this application
+// Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./generateMarkdown.js");
@@ -121,6 +121,15 @@ const questions = [
   },
 ];
 
+/*
+ runInquirer
+  inquirer prompts user with questions and saves the answers to send to other functions
+    * inquirer prompts user with questions from the questions array
+    * user's answers are saved as "answers"
+    * "answers" are sent to licenseBadge, licenseLink, and LicenseSection in generateMarkdown.js
+    * readMeText is the result of the generateMarkdown function using answers and the returned data from licenseBadge, licenseLink, and licenseSection functions
+    * calls writeToFile function and sends readMeText
+*/
 function runInqurer() {
   inquirer.prompt(questions).then((answers) => {
     const licenseBadge = generateMarkdown.renderLicenseBadge(answers);
@@ -131,15 +140,26 @@ function runInqurer() {
   });
 }
 
-// Write README file
+/*
+ Write README file
+  writes the README file using "readmeText" from generateMarkdown.js
+    * titles file "README.md"
+    * writes file using "readmeText" from generateMarkdown.js
+    * if there is an error, console error
+    * if the file is written successfully, console log sucess.
+*/
 function writeToFile(readMeText) {
-  fs.writeFile("README.md", readMeText, (err) => (err ? console.error(err) : console.log("Success!")));
+  fs.writeFile("README.md", readMeText, (err) => (err ? console.error(err) : console.log("Success! The README.md has been genarated.")));
 }
 
-// Initialize app
+/*
+ init()
+  initializatize the application
+    * calls runInquirer function
+*/
 function init() {
   runInqurer();
 }
 
-// Initialize app
+// Initialize the application by calling init function
 init();
