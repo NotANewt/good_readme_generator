@@ -53,7 +53,7 @@ function renderLicenseSection({ license }) {
   if (license !== "" && license !== "None") {
     licenseSection = `## License
     
-This application is licensed under the ${license} license`;
+This application is licensed under the ${license} license.`;
   }
   return licenseSection;
 }
@@ -110,7 +110,7 @@ ${test_instructions}
 If you have any questions:
 
 - Email me: [${email}](mailto:${email})
-- Go to my github: [${github}/pages](https://github.com/${github})
+- Go to my github: [${github}](https://github.com/${github})
 
 ## Links
 
