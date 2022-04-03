@@ -105,7 +105,7 @@ const questions = [
     type: "input",
     message: "Enter the link to the application's github repository.",
     validate: function (input) {
-      const valid = input.startsWith("https://www.github.com");
+      const valid = input.startsWith("https://github.com");
       return valid || "Please enter a valid website";
     },
   },
@@ -115,7 +115,7 @@ const questions = [
     type: "input",
     message: "Enter the link to the deployed application.",
     validate: function (input) {
-      const valid = input.startsWith("https://www.");
+      const valid = input.startsWith("https://");
       return valid || "Please enter a valid website";
     },
   },
