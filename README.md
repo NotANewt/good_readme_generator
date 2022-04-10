@@ -1,13 +1,13 @@
-# Tech Blog
+# 09 Node.js Homework: Professional README Generator
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
 
-- Purpose of this project: A CMS-style blog where developers can publish blog posts and comment on existing posts.
-- Problem(s) the app solves: Developers not having a place to share their ideas with one another.
-- Languages used: HTML, CSS, JavaScript, SQL
-- Brief description: A blog site where users can make their own blog posts, view posts written by other users, and comment on posts.
+- Purpose of this project: This is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer) from [npm](https://www.npmjs.com/).
+- Problem(s) the app solves: Using this professional README generator allows the user to spend less time on the README and more time on the application itself.
+- Languages used: JavaScript (Node.js)
+- Brief description: User answers a series of questions about their application repository, and then a high-quality, prefessional README.md is generated.
 
 ## Table of Contents
 
@@ -21,31 +21,35 @@
 
 ## Installation
 
-package.json
+To use this command-line application, please download and install the [Inquirer package](https://www.npmjs.com/package/inquirer) from [npm](https://www.npmjs.com/).
 
 ## Usage
 
-usage
+The application will be invoked by using the following command in an integrated terminal:
+
+```bash
+node index.js
+```
+
+The user will be prompted for information about their application repository, then a high-quality, professional README.md is generated with the title of their project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. The user's answers will be displayed under the appropriate sections of the README.md. When they choose a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under. If no license is selected, the License section will not appear in the README.md. When they enter their GitHub username and email address, they will be added to the section of the README entitled Questions, with instructions on how to reach the user with additional questions. When the user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
 
 ### Screenshot
 
-!["a screenshot of the app"](./img/screenshot)
+!["screenshot of integrated terminal after all questions have been answers and the readme file has been generated"](./assets/img/hw9_readme_generator_ss.PNG)
 
 ## License
-    
+
 This application is licensed under the MIT license.
 
 ## Contributing
 
-contribution guidelines
+If you would like to contribute to this application, please follow the Contributor Covenant guidelines.
 
 ## Tests
 
-You can test this application by entering unexpected characters into the inputs.
+You can test this application by attempting to input incorrect or unexpected inputs for inquirer questions.
 
 ## Questions
-
-
 
 If you have any questions:
 
@@ -54,5 +58,5 @@ If you have any questions:
 
 ## Links
 
-- Here is the repo: [NotANewt/Tech Blog](https://www.github.com/NotANewt/hw14_tech_blog)
-- Here is the pages: [NotANewt/pages](https://www.meegan-tech-blog.herokuapp.com/)
+- Here is the repo: [NotANewt/hw9_good_readme_generator](https://github.com/NotANewt/hw9_good_readme_generator)
+- Here is the walkthrough video: [README generator walkthrough](https://drive.google.com/file/d/1YMZ1gunW_w5awnkD8F2SRR1hb--onT7y/view?usp=sharing)
